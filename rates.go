@@ -9,9 +9,9 @@ import (
 // Rates contains exchange rate values for a specific base currency on a
 // particular date.
 type Rates struct {
-	Base   string
-	Date   time.Time
-	Values map[string]float64
+	Base   string             `json:"base"`
+	Date   time.Time          `json:"date"`
+	Values map[string]float64 `json:"values"`
 }
 
 // Latest returns the latest exchange rates for the selected base currency.
