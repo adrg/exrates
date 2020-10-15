@@ -1,13 +1,15 @@
 exrates
 =======
 
-[![Build Status](https://travis-ci.org/adrg/exrates.svg?branch=master)](https://travis-ci.org/adrg/exrates)
-[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://godoc.org/github.com/adrg/exrates)
-[![License: MIT](http://img.shields.io/badge/license-MIT-red.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-[![Go Report Card](https://goreportcard.com/badge/github.com/adrg/exrates)](https://goreportcard.com/report/github.com/adrg/exrates)
+[![Build Status](https://github.com/adrg/exrates/workflows/CI/badge.svg)](https://github.com/adrg/exrates/actions?query=workflow%3ACI)
+[![pkg.go.dev documentation](https://pkg.go.dev/badge/github.com/adrg/exrates)](https://pkg.go.dev/github.com/adrg/exrates)
+[![MIT license](http://img.shields.io/badge/license-MIT-red.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+[![Go report card](https://goreportcard.com/badge/github.com/adrg/exrates)](https://goreportcard.com/report/github.com/adrg/exrates)
 
 Exchange rates client for the excellent [Exchange Rates API](https://exchangeratesapi.io).
 The API provides current and historical foreign exchange rates published by the [European Central Bank](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html).
+
+Full documentation can be found at: https://pkg.go.dev/github.com/adrg/exrates.
 
 ## Installation
 ```
