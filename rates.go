@@ -52,12 +52,12 @@ func Between(base string, start, end time.Time, currencies []string) ([]*Rates, 
 
 	// Make request parameters.
 	params := makeParams(base, currencies)
-	params.Add("start_at", start.Format(dateFmt))
-	params.Add("end_at", end.Format(dateFmt))
+	params.Add("start_date", start.Format(dateFmt))
+	params.Add("end_date", end.Format(dateFmt))
 
 	// Send API request.
 	response := &intervalResponse{}
-	if err := doRequest(baseURL+"history", params, response); err != nil {
+	if err := doRequest(baseURL+"timeseries", params, response); err != nil {
 		return nil, err
 	}
 	if response.Error != "" {
