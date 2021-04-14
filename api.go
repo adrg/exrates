@@ -11,7 +11,7 @@ import (
 )
 
 const (
-	baseURL = "https://api.exchangeratesapi.io/"
+	baseURL = "https://api.exchangerate.host/"
 	dateFmt = "2006-01-02"
 )
 
